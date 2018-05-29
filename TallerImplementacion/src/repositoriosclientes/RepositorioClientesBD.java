@@ -38,7 +38,7 @@ public class RepositorioClientesBD implements IRepositorioClientes {
 			logger.addHandler(archivoLog);
 
 		} catch (SecurityException | IOException e) {
-			
+			System.err.println("Error con el archivo LogBD.log");
 		}
 	}
 	
